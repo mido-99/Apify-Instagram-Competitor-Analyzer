@@ -33,9 +33,13 @@ Set up should take less than 5 minutes. You only need to configure the core inpu
 
 This step downloads recent content (posts, videos, and images) from the Instagram competitor accounts you have defined.
 
+<img width="503" height="367" alt="Screenshot 2025-11-04 162301" src="https://github.com/user-attachments/assets/0a8738b9-7e1e-4de2-be24-a9f1be2b8f4b" />
+
 ## **🔍 STEP 2: Duplicate Prevention (Filtering)**
 
 To save resources and maintain data quality, this step ensures that the system only processes genuinely new content. It checks the post IDs against the content already logged in your **Google Sheet** and filters out any duplicates before the next stage.
+
+<img width="725" height="378" alt="Screenshot 2025-11-04 162334" src="https://github.com/user-attachments/assets/f6264509-7be9-4956-b2b0-d4db7c18c232" />
 
 ## **🧠 STEP 3: Deep Content Analysis (AI Pipeline)**
 
@@ -45,12 +49,16 @@ New content is processed by the Gemini model, which uses multi-modal intelligenc
 * **Text Analysis:** Analyzes the caption and comments for meaning, tone, and sentiment.  
 * **Data Storage:** The comprehensive analysis results are saved into the Google Sheet, associated with the unique post ID.
 
+<img width="1253" height="617" alt="Screenshot 2025-11-04 162401" src="https://github.com/user-attachments/assets/483dde62-1a33-4499-8e72-a703171709ed" />
+
 ## **📈 STEP 4: Strategy & Recommendation**
 
 The final stage acts as a "Strategy Specialist AI," synthesizing all the gathered data—performance metrics (likes, comments, etc.) and the deep AI analysis—to provide a final report:
 
 * **Key Insights:** Identifies trends, such as the most engaged content themes, the best-performing media types (Reels vs. Images), and viral hashtags.  
 * **Actionable Strategy:** Provides specific, personalized recommendations for content experiments based on what is currently succeeding and failing in the competitor landscape.
+
+<img width="645" height="282" alt="Screenshot 2025-11-04 162425" src="https://github.com/user-attachments/assets/604155bc-b15a-45ac-a051-4431ceaa2de4" />
 
 ## 🛠️ Customize Your Workflow
 
